@@ -1,3 +1,4 @@
+
 # Mid-term test 1 (variant 2)
 
 The test consists of three tasks located in directories `app`, `physics` and
@@ -15,31 +16,31 @@ to `prog-1/test-1-1` repository.
    parallel. The total inductance `L` can be found using the formula `1/L =
    1/L1 + 1/L2 + 1/L3`.
 
-Example:
+   Example:
 
-```
-The program finds the capacity of three inductors connected in parallel.
-Enter inductance of three inductors: 1 2 3
-The total inductance of the three inductors connected in parallel is 0.5454545454545454.
-```
+   ```
+   The program finds the capacity of three inductors connected in parallel.
+   Enter inductance of three inductors: 1 2 3
+   The total inductance of the three inductors connected in parallel is 0.5454545454545454.
+   ```
 
 3. Write a program in the directory `ping-pong` that prints the numbers from 1
    to 100 (each number in a separate line) and for numbers that are NOT
    multiples of `2` prints `Ping` instead of the number and for numbers that
    are multiples of `5` prints `Pong`.
 
-Example:
+   Example:
 
-```
-Ping
-2
-Ping
-4
-PingPong
-6
-Ping
-8
-Ping
-Pong
-...
-```
+   ```
+   Ping
+   2
+   Ping
+   4
+   PingPong
+   6
+   Ping
+   8
+   Ping
+   Pong
+   ...
+   ```
