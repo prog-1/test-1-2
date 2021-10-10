@@ -24,23 +24,26 @@ to `prog-1/test-1-1` repository.
    The total inductance of the three inductors connected in parallel is 0.5454545454545454.
    ```
 
-3. Write a program in the directory `ping-pong` that prints the numbers from 1
-   to 100 (each number in a separate line) and for numbers that are NOT
-   multiples of `2` prints `Ping` instead of the number and for numbers that
-   are multiples of `5` prints `Pong`.
+3. Write a program in the directory `ping-pong` that prints the following for
+a provided number:
 
-   Example:
+    - `Ping` if the number is NOT divisible by 2;
+    - `Pong` if the number is NOT divisible by 5;
+    - `PingPong` if the number is NOT divisible by both 2 and 5;
+    - The number itself otherwise.
 
-   ```
-   Ping
-   2
-   Ping
-   4
-   PingPong
-   6
-   Ping
-   8
-   Ping
-   Pong
-   ...
-   ```
+    Example 1:
+
+    ```
+    The program prints Ping, Pong or a number.
+    Enter a number: 12
+    Pong
+    ```
+
+    Example 2:
+
+    ```
+    The program pints Ping, Pong or a numbers.
+    Enter a number: 10
+    10
+    ```
