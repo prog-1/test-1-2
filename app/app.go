@@ -11,9 +11,11 @@ func main() {
 	fmt.Scan(&num)
 
 	// TODO: What do the variables a, b and c store?
+	//a - remainder divided by 10 ; b - number divided by 10 gives a remainder of 10 ; c - number divided by 100 gives a remainder of 10
 	a, b, c := num%10, num/10%10, num/100%10
 
 	// TODO: What do the three `if ... { ... }` statements below do?
+	// first if swaps a and b second if equal a and c ; third if equal a and c
 	if a < b {
 		a, b = b, a
 	}
@@ -25,6 +27,7 @@ func main() {
 	}
 
 	// TODO: What do the three lines below do?
+	// Combines a, b, c into number
 	num = a
 	num = num*10 + b
 	num = num*10 + c
